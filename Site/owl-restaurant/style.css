@@ -1505,9 +1505,9 @@ a.about-video-button:hover {
     13.1 ABOUT AREA
 ---------------------------*/
 
-.home-three .about-area {
+/*.home-three .about-area {
     background: rgba(0, 0, 0, 0) url("img/about/home_three_about_bg.png") no-repeat scroll center bottom / contain;
-}
+}*/
 
 .home-three .area-title h3 {
     background: rgba(0, 0, 0, 0) url("img/title_bg.png") no-repeat scroll center center / 100% 100%;
