@@ -166,6 +166,7 @@ input:-webkit-autofill:focus {
 
 .section-padding {
     padding: 100px 0;
+
 }
 
 .no-padding {
@@ -2720,4 +2721,8 @@ ul.blog-instagram-feed-widget li {
 
 .error-text a {
     color: #d0963e;
+}
+
+body > section.about-area.section-padding{
+  background: #f4f4f4;
 }
