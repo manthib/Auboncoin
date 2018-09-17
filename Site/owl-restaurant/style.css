@@ -1601,7 +1601,7 @@ option {
 }
 
 .home-three .footer-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/footer_bg.jpg") no-repeat scroll 0 0 / cover;
+    /*background: rgba(0, 0, 0, 0) url("img/footer_bg.jpg") no-repeat scroll 0 0 / cover;*/
     height: 100%;
     left: 0;
     position: absolute;
