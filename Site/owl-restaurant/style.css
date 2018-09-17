@@ -2756,3 +2756,11 @@ body > section.about-area.section-padding{
 #menu > div.page-barner-bg{
    background: rgba(0, 0, 0, 0) url("img/back-menu.png") no-repeat scroll center center / cover;
 }
+
+#resa > div.page-barner-bg{
+   background: rgba(0, 0, 0, 0) url("img/back-reservation.png") no-repeat scroll center center / cover;
+}
+
+#event > div.page-barner-bg{
+   background: rgba(0, 0, 0, 0) url("img/back-event.png") no-repeat scroll center center / cover;
+}
