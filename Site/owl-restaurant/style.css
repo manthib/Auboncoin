@@ -936,7 +936,7 @@ a.read-more {
 }
 
 .event-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/event/event_area_bg.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("img/event/event_area_bg.png") no-repeat scroll center center / cover;
     height: 100%;
     left: 0;
     position: absolute;
