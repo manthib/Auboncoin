@@ -1,7 +1,7 @@
 <?php
 // Configure your Subject Prefix and Recipient here
-$subjectPrefix = '[Contact via website]';
-$emailTo       = '<mehedidb@gmail.com>';
+$subjectPrefix = '[Contact via site web]';
+$emailTo       = '<alexismoreau2@live.fr>';
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -10,16 +10,16 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $phone = stripslashes(trim($_POST['phone']));
     $message = stripslashes(trim($_POST['message']));
     if (empty($name)) {
-        $errors['name'] = 'Name is required.';
+        $errors['name'] = 'Veuillez rentrer un nom.';
     }
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors['email'] = 'Email is invalid.';
+        $errors['email'] = 'Veuillez rentrer un e-mail.';
     }
     if (empty($phone)) {
-        $errors['phone'] = 'Phone is required.';
+        $errors['phone'] = 'Veuillez rentrer un numéro de téléphone.';
     }
     if (empty($message)) {
-        $errors['message'] = 'Message is required.';
+        $errors['message'] = 'Veuillez rentrer un message.';
     }
     // if there are any errors in our errors array, return a success boolean or false
     if (!empty($errors)) {
@@ -28,9 +28,9 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         $subject = "$subjectPrefix $subject";
         $body    = '
-            <strong>Name: </strong>'.$name.'<br />
-            <strong>Email: </strong>'.$email.'<br />
-            <strong>Phone: </strong>'.$phone.'<br />
+            <strong>Nom: </strong>'.$name.'<br />
+            <strong>E-mail: </strong>'.$email.'<br />
+            <strong>Téléphone: </strong>'.$phone.'<br />
             <strong>Message: </strong>'.nl2br($message).'<br />
         ';
         $headers  = "MIME-Version: 1.1" . PHP_EOL;
@@ -45,7 +45,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $headers .= "X-Originating-IP: " . $_SERVER['SERVER_ADDR'] . PHP_EOL;
         mail($emailTo, "=?utf-8?B?" . base64_encode($subject) . "?=", $body, $headers);
         $data['success'] = true;
-        $data['message'] = 'Congratulations. Your message has been sent successfully';
+        $data['message'] = 'Votre message a bien été envoyé, nous vous répondrons dans les plus brefs délais.';
     }
     // return all our data to an AJAX call
     echo json_encode($data);
