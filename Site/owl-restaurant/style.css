@@ -2726,3 +2726,29 @@ ul.blog-instagram-feed-widget li {
 body > section.about-area.section-padding{
   background: #f4f4f4;
 }
+
+#date::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+#date:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+#date::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+#time::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+#time:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+#time::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
