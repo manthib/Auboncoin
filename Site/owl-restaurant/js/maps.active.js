@@ -6,11 +6,11 @@
             // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
             var mapOptions = {
                 // How zoomed in you want the map to start at (always required)
-                zoom: 11,
+                zoom: 16,
                 scrollwheel: false,
 
                 // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.6700, -73.9400), // Replace latitude and longitude for your palce.
+                center: new google.maps.LatLng(48.8137023, 2.3955016), // Replace latitude and longitude for your palce.
 
                 styles: [{
                     "featureType": "administrative",
@@ -76,9 +76,9 @@
 
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(40.6700, -73.9400),
+                position: new google.maps.LatLng(48.8137023, 2.3955016),
                 map: map,
                 icon: 'img/map-marker.png',
-                title: 'OWL RESTAURENT!'
+                title: 'Le Bon Coin'
             });
         }
