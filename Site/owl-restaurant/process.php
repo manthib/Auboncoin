@@ -38,7 +38,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $headers .= "Content-Transfer-Encoding: 8bit" . PHP_EOL;
         $headers .= "Date: " . date('r', $_SERVER['REQUEST_TIME']) . PHP_EOL;
         $headers .= "Message-ID: <" . $_SERVER['REQUEST_TIME'] . md5($_SERVER['REQUEST_TIME']) . '@' . $_SERVER['SERVER_NAME'] . '>' . PHP_EOL;
-        $headers .= "From: " . "=?UTF-8?B?".base64_encode($name)."?=" . "<$email>" . PHP_EOL;
+        $headers .= "From: " . "Le Bon Coin Ivry " . "<contact@leboncoin-ivry.fr>" . PHP_EOL;
         $headers .= "Return-Path: $emailTo" . PHP_EOL;
         $headers .= "Reply-To: $email" . PHP_EOL;
         $headers .= "X-Mailer: PHP/". phpversion() . PHP_EOL;
