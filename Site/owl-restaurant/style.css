@@ -2752,3 +2752,7 @@ body > section.about-area.section-padding{
 #time::-ms-input-placeholder { /* Microsoft Edge */
     color: white;
 }
+
+#menu > div.page-barner-bg{
+   background: rgba(0, 0, 0, 0) url("img/back-menu.png") no-repeat scroll center center / cover;
+}
