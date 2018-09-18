@@ -14,9 +14,9 @@ Ajax Contact Form
 (function ($, window, document, undefined) {
     'use strict';
 
-    var $form = $('#contact-form');
+    var $contactForm = $('#contact-form');
 
-    $form.submit(function (e) {
+    $contactForm.submit(function (e) {
         // remove the error class
         $('.form-group').removeClass('has-error');
         $('.help-block').remove();
@@ -32,7 +32,7 @@ Ajax Contact Form
         // process the form
         $.ajax({
             type : 'POST',
-            url  : 'process.php',
+            url  : 'process-contact-form.php',
             data : formData,
             dataType : 'json',
             encode : true
@@ -60,7 +60,7 @@ Ajax Contact Form
                 }
             } else {
                 // display success message
-                $form.html('<div class="alert alert-success">' + data.message + '</div>');
+                $contactForm.html('<div class="alert alert-success">' + data.message + '</div>');
             }
         }).fail(function (data) {
             // for debug

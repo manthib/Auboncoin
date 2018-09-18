@@ -153,30 +153,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                      <form class="table-booking-form" method="post" action="process-reservation-form.php">
+                      <form class="table-booking-form" id="reservation-form" method="post" action="process-reservation-form.php">
                          <div class="row">
-                            <div class="col- col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                                <label for="phone"><i class="fa fa-phone"></i></label>
-                                <input type="text" name="phone" id="phone" placeholder="Téléphone...">
-                            </div>
-                           <div class="col- col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                                <label for="date"><i class="fa fa-calendar"></i></label>
-                                <input type="text" name="date" id="date" data-select="datepicker" placeholder="Date...">
-                            </div>
-                            <div class="col- col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                                <label for="time"><i class="fa fa-clock-o"></i></label>
-                                <input type="text" name="time" id="time" placeholder="Heure...">
-                            </div>
-                            <div class="col- col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                                <label for="person"><i class="fa fa-user"></i></label>
-                                <select name="person" id="person">
-                                    <option value="2">2 Personnes</option>
-                                    <option value="3">3 Personnes</option>
-                                    <option value="4">4 Personnes</option>
-                                    <option value="5">5 Personnes</option>
-                                    <option value="6">6 Personnes</option>
-                                    <option value="7">7 Personnes</option>
-                                </select>
+                           <div id="field-telephone">
+                              <div class="form-input col- col-lg-2 col-md-2 col-sm-6 col-xs-12" id="field-phone">
+                                  <label for="phone"><i class="fa fa-phone"></i></label>
+                                  <input type="text" name="telephone" id="phone" placeholder="Téléphone...">
+                              </div>
+                           </div>
+                           <div id="field-date">
+                             <div class="form-input col- col-lg-2 col-md-2 col-sm-6 col-xs-12" id="field-date">
+                                  <label for="date"><i class="fa fa-calendar"></i></label>
+                                  <input type="text" name="date" id="date" data-select="datepicker" placeholder="Date...">
+                             </div>
+                           </div>
+                           <div id="field-time">
+                              <div class="form-input col- col-lg-2 col-md-2 col-sm-6 col-xs-12" id="field-time">
+                                  <label for="time"><i class="fa fa-clock-o"></i></label>
+                                  <input type="text" name="time" id="time" placeholder="Heure...">
+                              </div>
+                           </div>
+                            <div id="field-person">
+                              <div class="form-input col- col-lg-2 col-md-2 col-sm-6 col-xs-12" id="field-person">
+                                  <label for="person"><i class="fa fa-user"></i></label>
+                                  <select name="person" id="person">
+                                      <option value="2">2 Personnes</option>
+                                      <option value="3">3 Personnes</option>
+                                      <option value="4">4 Personnes</option>
+                                      <option value="5">5 Personnes</option>
+                                      <option value="6">6 Personnes</option>
+                                      <option value="7">7 Personnes</option>
+                                  </select>
+                              </div>
                             </div>
                             <div class="col- col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                 <button type="submit">Réservez une table</button>
@@ -469,7 +477,7 @@
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="js/contact-form.js"></script>
+    <script src="js/reservation-form.js"></script>
     <script src="js/jquery.sticky.js"></script>
 
     <!--===== ACTIVE JS=====-->

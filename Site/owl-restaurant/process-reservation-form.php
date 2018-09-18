@@ -5,12 +5,12 @@ $emailTo       = '<alexismoreau2@live.fr>';
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $phone    = stripslashes(trim($_POST['phone']));
+    $telephone    = stripslashes(trim($_POST['telephone']));
     $date    = stripslashes(trim($_POST['date']));
     $time   = stripslashes(trim($_POST['time']));
     $person   = stripslashes(trim($_POST['person']));
-    if (empty($date)) {
-        $errors['date'] = 'Veuillez rentrer un numéro de téléphone.';
+    if (empty($telephone)) {
+        $errors['telephone'] = 'Veuillez rentrer un numéro de téléphone.';
     }
     if (empty($date)) {
         $errors['date'] = 'Veuillez rentrer une date.';

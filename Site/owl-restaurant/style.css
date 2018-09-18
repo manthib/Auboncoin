@@ -2751,3 +2751,7 @@ body > section.about-area.section-padding{
 #event > div.page-barner-bg{
    background: rgba(0, 0, 0, 0) url("img/back-event.png") no-repeat scroll center center / cover;
 }
+
+#field-date > span, #field-phone > span, #field-time > span, #field-person > span, #reservation-form > div.alert-light {
+  color: white;
+}
