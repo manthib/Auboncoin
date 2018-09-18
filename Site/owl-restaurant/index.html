@@ -155,15 +155,19 @@
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                       <form class="table-booking-form" method="post" action="process-reservation-form.php">
                          <div class="row">
-                            <div class="col- col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                            <div class="col- col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                                <label for="phone"><i class="fa fa-phone"></i></label>
+                                <input type="text" name="phone" id="phone" placeholder="Téléphone...">
+                            </div>
+                           <div class="col- col-lg-2 col-md-2 col-sm-6 col-xs-12">
                                 <label for="date"><i class="fa fa-calendar"></i></label>
                                 <input type="text" name="date" id="date" data-select="datepicker" placeholder="Date...">
                             </div>
-                            <div class="col- col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                            <div class="col- col-lg-2 col-md-2 col-sm-6 col-xs-12">
                                 <label for="time"><i class="fa fa-clock-o"></i></label>
-                                <input type="text" id="time" placeholder="Heure...">
+                                <input type="text" name="time" id="time" placeholder="Heure...">
                             </div>
-                            <div class="col- col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                            <div class="col- col-lg-2 col-md-2 col-sm-6 col-xs-12">
                                 <label for="person"><i class="fa fa-user"></i></label>
                                 <select name="person" id="person">
                                     <option value="2">2 Personnes</option>
@@ -174,7 +178,7 @@
                                     <option value="7">7 Personnes</option>
                                 </select>
                             </div>
-                            <div class="col- col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                            <div class="col- col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                 <button type="submit">Réservez une table</button>
                             </div>
                         </div>

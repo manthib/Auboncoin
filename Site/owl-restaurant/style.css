@@ -2727,29 +2727,16 @@ body > section.about-area.section-padding{
   background: #f4f4f4;
 }
 
-#date::placeholder {
+#date::placeholder, #time::placeholder, #phone::placeholder {
     color: white;
     opacity: 1; /* Firefox */
 }
 
-#date:-ms-input-placeholder { /* Internet Explorer 10-11 */
+#date:-ms-input-placeholder, #time:-ms-input-placeholder, #phone:-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: white;
 }
 
-#date::-ms-input-placeholder { /* Microsoft Edge */
-    color: white;
-}
-
-#time::placeholder {
-    color: white;
-    opacity: 1; /* Firefox */
-}
-
-#time:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: white;
-}
-
-#time::-ms-input-placeholder { /* Microsoft Edge */
+#date::-ms-input-placeholder, #time::-ms-input-placeholder, #phone::-ms-input-placeholder { /* Microsoft Edge */
     color: white;
 }
 

@@ -5,16 +5,20 @@ $emailTo       = '<alexismoreau2@live.fr>';
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $phone    = stripslashes(trim($_POST['phone']));
     $date    = stripslashes(trim($_POST['date']));
     $time   = stripslashes(trim($_POST['time']));
     $person   = stripslashes(trim($_POST['person']));
-    if (empty($name)) {
+    if (empty($date)) {
+        $errors['date'] = 'Veuillez rentrer un numéro de téléphone.';
+    }
+    if (empty($date)) {
         $errors['date'] = 'Veuillez rentrer une date.';
     }
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if (empty($time)) {
         $errors['time'] = 'Veuillez rentrer une heure.';
     }
-    if (empty($phone)) {
+    if (empty($person)) {
         $errors['person'] = 'Veuillez rentrer le nombre de personnes.';
     }
     // if there are any errors in our errors array, return a success boolean or false
@@ -24,6 +28,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         $subject = "$subjectPrefix $subject";
         $body    = '
+            <strong>Téléphone: </strong>'.$phone.'<br />
             <strong>Date: </strong>'.$date.'<br />
             <strong>Heure: </strong>'.$time.'<br />
             <strong>Nombre de personnes: </strong>'.$person.'<br />
