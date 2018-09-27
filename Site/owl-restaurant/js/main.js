@@ -126,7 +126,18 @@ jQuery(document).on('ready', function ($) {
     /*---------------------------
         MENU LIST MIXITUP FILTERING
     ----------------------------*/
-    $('.food-menu-list').mixItUp();
+    $('.food-menu-list').mixItUp({
+        selectors: {
+            filter: '.filter1'
+
+        }
+    });
+    $('.food-menu-list2').mixItUp({
+        selectors: {
+            filter: '.filter2'
+
+        }
+    });
 
 
     /*---------------------------
