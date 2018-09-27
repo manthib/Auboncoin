@@ -92,9 +92,9 @@ jQuery(document).on('ready', function ($) {
     });
 
 
-    /*------------------------------
+ /*   /!*------------------------------
         MENU IMAGE POPUP
-    -------------------------------*/
+    -------------------------------*!/
     $('.menu-popup').magnificPopup({
         type: 'image',
         removalDelay: 500, //delay removal by X to allow out-animation
@@ -108,7 +108,7 @@ jQuery(document).on('ready', function ($) {
         closeOnContentClick: true,
         midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
     });
-
+*/
 
     /*----------------------------
         SCROLL TO TOP

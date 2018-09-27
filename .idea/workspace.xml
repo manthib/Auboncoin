@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="76af42db-7d7b-4dad-92d6-d8127744493a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Site/owl-restaurant/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="1556" column="76" selection-start-line="1556" selection-start-column="76" selection-end-line="1556" selection-end-column="76" />
+            <state relative-caret-position="507">
+              <caret line="791" column="105" selection-start-line="791" selection-start-column="105" selection-end-line="791" selection-end-column="105" />
               <folding>
                 <element signature="n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -68,7 +69,6 @@
                 <element signature="n#div#20;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#21;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#22;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#23;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#24;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#25;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#26;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -104,6 +104,8 @@
                 <element signature="e#63881#64472#0" />
                 <element signature="e#64471#65062#0" />
                 <element signature="e#65039#65590#0" />
+                <element signature="e#65606#66156#0" />
+                <element signature="e#65700#65897#0" />
                 <element signature="e#66424#66970#0" />
                 <element signature="e#67013#67559#0" />
                 <element signature="e#67587#68144#0" />
@@ -122,10 +124,28 @@
                 <element signature="e#75082#75642#0" />
                 <element signature="e#75660#76220#0" />
                 <element signature="e#76238#76798#0" />
+                <element signature="e#76816#77376#0" />
                 <element signature="e#77456#78023#0" />
                 <element signature="e#78026#78596#0" />
                 <element signature="e#78611#79181#0" />
                 <element signature="e#79197#79767#0" />
+                <element signature="e#79783#80353#0" />
+                <element signature="e#79875#80072#0" />
+                <element signature="e#80093#80330#0" />
+                <element signature="e#80378#80948#0" />
+                <element signature="e#80983#81546#0" />
+                <element signature="e#81561#82124#0" />
+                <element signature="e#82140#82703#0" />
+                <element signature="e#82719#83282#0" />
+                <element signature="e#83295#83854#0" />
+                <element signature="e#83869#84428#0" />
+                <element signature="e#84444#85003#0" />
+                <element signature="e#85019#85578#0" />
+                <element signature="e#85596#86155#0" />
+                <element signature="e#86181#86740#0" />
+                <element signature="e#86760#87322#0" />
+                <element signature="e#87339#87901#0" />
+                <element signature="e#87918#88480#0" />
               </folding>
             </state>
           </provider>
@@ -141,8 +161,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Site/owl-restaurant/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="136" column="29" selection-start-line="136" selection-start-column="29" selection-end-line="136" selection-end-column="29" />
+            <state relative-caret-position="205">
+              <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -274,12 +294,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537955782874</updated>
-      <workItem from="1537955785527" duration="23111000" />
+      <workItem from="1537955785527" duration="28524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23111000" />
+    <option name="totallyTimeSpent" value="28524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -355,15 +375,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/owl-restaurant/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="136" column="29" selection-start-line="136" selection-start-column="29" selection-end-line="136" selection-end-column="29" />
+        <state relative-caret-position="205">
+          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/owl-restaurant/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="1556" column="76" selection-start-line="1556" selection-start-column="76" selection-end-line="1556" selection-end-column="76" />
+        <state relative-caret-position="507">
+          <caret line="791" column="105" selection-start-line="791" selection-start-column="105" selection-end-line="791" selection-end-column="105" />
           <folding>
             <element signature="n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -411,7 +431,6 @@
             <element signature="n#div#20;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#21;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#22;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#23;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#24;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#25;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#26;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -447,6 +466,8 @@
             <element signature="e#63881#64472#0" />
             <element signature="e#64471#65062#0" />
             <element signature="e#65039#65590#0" />
+            <element signature="e#65606#66156#0" />
+            <element signature="e#65700#65897#0" />
             <element signature="e#66424#66970#0" />
             <element signature="e#67013#67559#0" />
             <element signature="e#67587#68144#0" />
@@ -465,10 +486,28 @@
             <element signature="e#75082#75642#0" />
             <element signature="e#75660#76220#0" />
             <element signature="e#76238#76798#0" />
+            <element signature="e#76816#77376#0" />
             <element signature="e#77456#78023#0" />
             <element signature="e#78026#78596#0" />
             <element signature="e#78611#79181#0" />
             <element signature="e#79197#79767#0" />
+            <element signature="e#79783#80353#0" />
+            <element signature="e#79875#80072#0" />
+            <element signature="e#80093#80330#0" />
+            <element signature="e#80378#80948#0" />
+            <element signature="e#80983#81546#0" />
+            <element signature="e#81561#82124#0" />
+            <element signature="e#82140#82703#0" />
+            <element signature="e#82719#83282#0" />
+            <element signature="e#83295#83854#0" />
+            <element signature="e#83869#84428#0" />
+            <element signature="e#84444#85003#0" />
+            <element signature="e#85019#85578#0" />
+            <element signature="e#85596#86155#0" />
+            <element signature="e#86181#86740#0" />
+            <element signature="e#86760#87322#0" />
+            <element signature="e#87339#87901#0" />
+            <element signature="e#87918#88480#0" />
           </folding>
         </state>
       </provider>
