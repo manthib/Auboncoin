@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76af42db-7d7b-4dad-92d6-d8127744493a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Site/owl-restaurant/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="791" column="105" selection-start-line="791" selection-start-column="105" selection-end-line="791" selection-end-column="105" />
+            <state relative-caret-position="462">
+              <caret line="1368" column="86" selection-start-line="1368" selection-start-column="86" selection-end-line="1368" selection-end-column="86" />
               <folding>
                 <element signature="n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -69,6 +68,7 @@
                 <element signature="n#div#20;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#21;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#22;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#23;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#24;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#25;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#26;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -96,8 +96,6 @@
                 <element signature="e#60202#60792#0" />
                 <element signature="e#60793#61383#0" />
                 <element signature="e#61403#61993#0" />
-                <element signature="e#61499#61696#0" />
-                <element signature="e#61717#61970#0" />
                 <element signature="e#62009#62599#0" />
                 <element signature="e#62629#63232#0" />
                 <element signature="e#63253#63856#0" />
@@ -105,7 +103,6 @@
                 <element signature="e#64471#65062#0" />
                 <element signature="e#65039#65590#0" />
                 <element signature="e#65606#66156#0" />
-                <element signature="e#65700#65897#0" />
                 <element signature="e#66424#66970#0" />
                 <element signature="e#67013#67559#0" />
                 <element signature="e#67587#68144#0" />
@@ -130,8 +127,6 @@
                 <element signature="e#78611#79181#0" />
                 <element signature="e#79197#79767#0" />
                 <element signature="e#79783#80353#0" />
-                <element signature="e#79875#80072#0" />
-                <element signature="e#80093#80330#0" />
                 <element signature="e#80378#80948#0" />
                 <element signature="e#80983#81546#0" />
                 <element signature="e#81561#82124#0" />
@@ -294,12 +289,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537955782874</updated>
-      <workItem from="1537955785527" duration="28524000" />
+      <workItem from="1537955785527" duration="34376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28524000" />
+    <option name="totallyTimeSpent" value="34376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -382,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/owl-restaurant/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="791" column="105" selection-start-line="791" selection-start-column="105" selection-end-line="791" selection-end-column="105" />
+        <state relative-caret-position="462">
+          <caret line="1368" column="86" selection-start-line="1368" selection-start-column="86" selection-end-line="1368" selection-end-column="86" />
           <folding>
             <element signature="n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -431,6 +426,7 @@
             <element signature="n#div#20;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#21;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#22;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#23;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#24;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#25;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#26;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -458,8 +454,6 @@
             <element signature="e#60202#60792#0" />
             <element signature="e#60793#61383#0" />
             <element signature="e#61403#61993#0" />
-            <element signature="e#61499#61696#0" />
-            <element signature="e#61717#61970#0" />
             <element signature="e#62009#62599#0" />
             <element signature="e#62629#63232#0" />
             <element signature="e#63253#63856#0" />
@@ -467,7 +461,6 @@
             <element signature="e#64471#65062#0" />
             <element signature="e#65039#65590#0" />
             <element signature="e#65606#66156#0" />
-            <element signature="e#65700#65897#0" />
             <element signature="e#66424#66970#0" />
             <element signature="e#67013#67559#0" />
             <element signature="e#67587#68144#0" />
@@ -492,8 +485,6 @@
             <element signature="e#78611#79181#0" />
             <element signature="e#79197#79767#0" />
             <element signature="e#79783#80353#0" />
-            <element signature="e#79875#80072#0" />
-            <element signature="e#80093#80330#0" />
             <element signature="e#80378#80948#0" />
             <element signature="e#80983#81546#0" />
             <element signature="e#81561#82124#0" />
