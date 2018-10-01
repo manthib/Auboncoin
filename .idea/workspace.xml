@@ -2,6 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76af42db-7d7b-4dad-92d6-d8127744493a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/chocolat.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/chocolat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/citron.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/citron.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/coca.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/coca.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/double.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/eau.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/eau.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/expresso.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/expresso.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/grog.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/grog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/infusion.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/infusion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/jus.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/jus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/lait.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/lait.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/noisette.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/noisette.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/orangina.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/orangina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/perrier33.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/perrier33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/redbull.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/redbull.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/schweppes.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/schweppes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/the.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/the.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/viennois.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/viennois.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/vinchaud.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/vinchaud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/vittel25.png" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/img/menu/vittel25.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Site/owl-restaurant/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Site/owl-restaurant/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +39,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Site/owl-restaurant/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="1368" column="86" selection-start-line="1368" selection-start-column="86" selection-end-line="1368" selection-end-column="86" />
+            <state relative-caret-position="693">
+              <caret line="1262" column="76" selection-start-line="1262" selection-start-column="76" selection-end-line="1262" selection-end-column="76" />
               <folding>
                 <element signature="n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -47,6 +67,7 @@
                 <element signature="n#div#0;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#33251#33797#0" />
                 <element signature="n#div#3;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#5;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -82,7 +103,6 @@
                 <element signature="n#div#34;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#35;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#36;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#37;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#38;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#39;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#40;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -107,7 +127,6 @@
                 <element signature="e#67013#67559#0" />
                 <element signature="e#67587#68144#0" />
                 <element signature="e#68157#68714#0" />
-                <element signature="e#68719#69276#0" />
                 <element signature="e#69285#69842#0" />
                 <element signature="e#69892#70449#0" />
                 <element signature="e#70475#71034#0" />
@@ -289,12 +308,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537955782874</updated>
-      <workItem from="1537955785527" duration="34376000" />
+      <workItem from="1537955785527" duration="35898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34376000" />
+    <option name="totallyTimeSpent" value="35898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -377,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/owl-restaurant/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="1368" column="86" selection-start-line="1368" selection-start-column="86" selection-end-line="1368" selection-end-column="86" />
+        <state relative-caret-position="693">
+          <caret line="1262" column="76" selection-start-line="1262" selection-start-column="76" selection-end-line="1262" selection-end-column="76" />
           <folding>
             <element signature="n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -405,6 +424,7 @@
             <element signature="n#div#0;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#33251#33797#0" />
             <element signature="n#div#3;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -440,7 +460,6 @@
             <element signature="n#div#34;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#35;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#36;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#37;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#38;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#39;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#40;n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -465,7 +484,6 @@
             <element signature="e#67013#67559#0" />
             <element signature="e#67587#68144#0" />
             <element signature="e#68157#68714#0" />
-            <element signature="e#68719#69276#0" />
             <element signature="e#69285#69842#0" />
             <element signature="e#69892#70449#0" />
             <element signature="e#70475#71034#0" />
