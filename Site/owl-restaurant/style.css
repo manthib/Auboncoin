@@ -2552,9 +2552,9 @@ ul.blog-instagram-feed-widget li {
 .style-three .promotions-details {
     background: #fff none repeat scroll 0 0;
     color: #1a1a1a;
-    height: 300px;
-    margin-top: -150px;
-    max-height: 350px;
+    height: 425px;
+    margin-top: -188px;
+    max-height: 425px;
     padding: 50px;
     position: absolute;
     right: 0;
@@ -2763,3 +2763,5 @@ body > section.about-area.section-padding{
     margin-bottom: 0;
     padding: 5px 25px;
 }
+
+

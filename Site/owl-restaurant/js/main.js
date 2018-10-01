@@ -232,7 +232,7 @@ jQuery(document).on('ready', function ($) {
     /*---------------------------
         MENU DISCOUNT SLIDER
     -----------------------------*/
-    $('.menu-discount-offer').owlCarousel({
+  /*  $('.menu-discount-offer').owlCarousel({
         merge: true,
         video: true,
         items: 1,
@@ -255,7 +255,7 @@ jQuery(document).on('ready', function ($) {
                 items: 1
             }
         }
-    });
+    });*/
 
 
     /*--------------------------
