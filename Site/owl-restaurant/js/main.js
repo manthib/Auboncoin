@@ -128,15 +128,22 @@ jQuery(document).on('ready', function ($) {
     ----------------------------*/
     $('.food-menu-list').mixItUp({
         selectors: {
-            filter: '.filter1'
+            filter: '.filter1',
 
+        },
+        load: {
+            filter: '.entree'
         }
     });
     $('.food-menu-list2').mixItUp({
         selectors: {
-            filter: '.filter2'
 
+            filter: '.filter2'
+        },
+        load: {
+            filter: '.beer'
         }
+
     });
 
 
