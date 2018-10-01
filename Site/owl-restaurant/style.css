@@ -2755,3 +2755,11 @@ body > section.about-area.section-padding{
 #field-date > span, #field-phone > span, #field-time > span, #field-person > span, #reservation-form > div.alert-light {
   color: white;
 }
+
+#menu1 > div > div:nth-child(1) > div > div > h3, #menu2 > div > div:nth-child(1) > div > div > h3{
+    background: rgba(0, 0, 0, 0) url(img/title_bg.png) no-repeat scroll center center / 100% 100%;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 5px 25px;
+}
