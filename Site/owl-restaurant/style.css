@@ -386,6 +386,7 @@ ul#nav ul li:hover a {
 
 .top-bar {
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: black;
 }
 
 .call-to-action {
@@ -1645,7 +1646,7 @@ option {
 
 .count-area-bg:after,
 .page-barner-bg::after {
-    background: #000;
+    /*background: #000;*/
     content: "";
     height: 100%;
     left: 0;
@@ -2772,3 +2773,5 @@ body > section.instagram-area.section-padding > div > div:nth-child(1) > div > d
     padding: 5px 25px;
 
 }
+
+
