@@ -397,6 +397,7 @@ ul#nav ul li:hover a {
 .call-to-action a {
     color: #fff;
     letter-spacing: 1px;
+    text-transform: none;
 }
 
 .call-to-action p {
