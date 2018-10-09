@@ -875,7 +875,7 @@ a.read-more {
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 0 2px;
+    margin: 2px 2px;
     padding: 3px 10px;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
@@ -2563,6 +2563,7 @@ ul.blog-instagram-feed-widget li {
     top: 50%;
     width: 40%;
     z-index: 9;
+    text-align: center;
 }
 
 .style-three .promotions-details h3 {

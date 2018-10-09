@@ -134,10 +134,10 @@
         width: 80%;
     }
     .style-three .promotions-details {
-        height: 350px;
-        margin-top: -175px;
-        max-height: 350px;
-        width: 40%;
+        height: 35em;
+        margin-top: -17em;
+        max-height: 35em;
+        width: 35%;
     }
 }
 
@@ -260,6 +260,8 @@
     }
     .promotions-img img {
         width: 80%;
+        margin: auto;
+        display: block;
     }
     .area-title {
         margin-bottom: 40px;
@@ -353,6 +355,8 @@
     .style-three .promotions-details {
         padding: 30px;
         width: 60%;
+        position: relative;
+        margin: auto;
     }
 }
 
