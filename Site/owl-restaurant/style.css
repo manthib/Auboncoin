@@ -2553,9 +2553,9 @@ ul.blog-instagram-feed-widget li {
 .style-three .promotions-details {
     background: #fff none repeat scroll 0 0;
     color: #1a1a1a;
-    height: 425px;
-    margin-top: -188px;
-    max-height: 425px;
+    height: 500px;     /*425px;*/
+    margin-top: -220px;       /*-188px;*/
+    max-height: 500px;
     padding: 50px;
     position: absolute;
     right: 0;
